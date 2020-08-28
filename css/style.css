@@ -1,0 +1,285 @@
+* {
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+
+body {
+ background-color: #ecf0f1;
+ font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+#navbar {
+ background: #ffffff;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, .075);
+}
+
+.container {
+ max-width: 1200px;
+ margin: auto;
+}
+
+#navbar .logo {
+ width: 25%;
+ float: left;
+}
+
+#navbar .logo h1 {
+ color: #20bf6b;
+ padding: 25px;
+ font-size: 40px;
+ font-weight: bold;
+ text-transform: capitalize;
+ display: inline-block;
+ font-family: 'Russo One',
+  sans-serif;
+}
+
+#navbar .menu {
+ width: 75%;
+ float: left;
+}
+
+#navbar .menu ul {
+ list-style: none;
+ margin: 0px;
+ padding: 0px;
+ text-align: right;
+}
+
+#navbar .menu ul li {
+ display: inline-block;
+}
+
+#navbar .menu ul li a {
+ color: #192a56;
+ text-decoration: none;
+ padding: 10px 25px;
+ font-size: 20px;
+ font-weight: bold;
+ text-transform: capitalize;
+ display: inline-block;
+ margin: 26px 0px;
+}
+
+#navbar .menu ul li a:hover {
+ color: #ffffff;
+ background: #2d3436;
+ border-radius: 10px;
+}
+
+.hero-unit {
+ background-image: url("../img/RepairShack.jpg");
+ height: 100vh;
+ background-size: cover;
+ width: 100%;
+ margin-top: 90px;
+}
+
+.hero-unit-content {
+ margin: auto;
+}
+
+.hero-unit-content h2 {
+ font-size: 45px;
+ font-weight: bold;
+ color: #ffffff;
+ text-align: center;
+ padding-top: 160px;
+ margin-bottom: 15px;
+ text-shadow: 3px 4px 1px #000000;
+}
+
+.hero-unit-content p {
+ font-size: 25px;
+ font-weight: 400;
+ color: #ffffff;
+ text-align: center;
+ text-shadow: 3px 2px 1px #000000;
+}
+
+.form-body {
+ width: 60%;
+ background: rgba(0, 0, 0, 0.8);
+ max-width: 600px;
+ margin: 30px auto;
+ border-radius: 10px;
+ text-align: center;
+ padding: 5px 0;
+}
+
+form {
+ padding: 30px 50px;
+}
+
+.form-body input {
+ display: block;
+ width: 100%;
+ padding: 15px 20px;
+ margin: 20px 0;
+ background: #f5f6fa;
+ border: 1px solid white;
+ border-radius: 5px;
+ color: #2d3436;
+}
+
+.form-body input:focus {
+ outline: none;
+ border-color: #fa8231;
+}
+
+.form-body h4 {
+ color: white;
+ font-size: 30px;
+ margin-top: 10px;
+}
+
+.button {
+ background: #20bf6b !important;
+ color: white;
+ padding: 15px 25px;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.social-icon {
+ text-align: center;
+ margin: auto;
+ position: fixed;
+ top: 45%;
+ left: 0;
+ z-index: 9999;
+}
+
+.social-icon ul li {
+ display: block;
+ margin: 5px 20px;
+}
+
+.social-icon ul li a i {
+ height: 60px;
+ width: 60px;
+ background-color: #fc5c65;
+ color: white;
+ font-size: 22px;
+ text-align: center;
+ line-height: 60px;
+ border-radius: 50%;
+ transition: 0.5s ease-in-out;
+}
+
+#facebook {
+ background: #428ce8;
+}
+
+#twitter {
+ background: #80c9f1;
+}
+
+#youtube {
+ background: #bb0000;
+}
+
+#instagram {
+ background: #428ce8;
+}
+
+#github {
+ background: #24292E;
+}
+
+.social-icon ul li a i:hover {
+ transform: scale(0.6);
+ transition: 0.5s ease-in-out;
+}
+
+.howworks {
+ text-align: center;
+}
+
+.howworks h2 {
+ padding-top: 20px;
+ font-size: 45px;
+}
+
+#video {
+ margin: 20px auto;
+}
+
+footer {
+ background-color: black;
+ width: 100%;
+ text-align: center;
+ position: absolute;
+}
+
+#copyright {
+ color: #ffffff;
+ font-size: 20px;
+ padding-top: 15px;
+}
+
+#heart {
+ color: red;
+}
+
+@media all and (max-width: 748px) {
+ #navbar .logo {
+  width: 100%;
+  text-align: center;
+ }
+
+ #navbar .menu {
+  width: 100%;
+  text-align: center;
+ }
+
+ #navbar .menu ul {
+  text-align: center;
+ }
+
+ #navbar .menu ul li a {
+  margin-bottom: 10px;
+  padding: 10px 15px;
+ }
+
+ .hero-unit {
+  height: 1000px;
+ }
+
+ .hero-unit-content h2 {
+  font-size: 40px;
+ }
+
+ .hero-unit-content p {
+  font-size: 22px;
+ }
+
+ .form-body {
+  width: 100%;
+  max-width: 400px;
+ }
+
+ .social-icon {
+  position: relative;
+  bottom: 90%;
+ }
+
+ .social-icon ul li {
+  display: inline-block;
+  margin: 5px 20px;
+ }
+
+ #video {
+  height: 380px;
+  width: 380px;
+ }
+
+ #copyright {
+  font-size: 15px;
+  ;
+ }
+}
